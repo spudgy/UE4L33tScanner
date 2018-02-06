@@ -1,0 +1,33 @@
+.App-Pointers {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 25%;
+  margin: 0;
+  padding: 0;
+  overflow-y: auto;
+}
+
+.App-Pointers .App-Pointer {
+  margin: 0;
+  padding: 0;
+  height: 25px;
+  line-height: 25px;
+  text-indent: 5px;
+  cursor: pointer;
+}
+
+.App-Pointer:nth-child(odd) {
+  background-color: #eee;
+}
+
+.App-Pointer:hover, .App-Pointer:focus {
+  background-color: #ccc;
+}
+
+.ReactTable {
+  display: inline-block;
+  width: 75%;
+  left: 25%;
+  top: 0;
+}
